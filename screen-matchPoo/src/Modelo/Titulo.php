@@ -23,7 +23,10 @@ class Titulo {
            return $somaNotas / $quantidades;
     }
 
-   
+   public function duracaoEmMinutos(): int {
+
+    return 0;
+   }
 
 
 }
