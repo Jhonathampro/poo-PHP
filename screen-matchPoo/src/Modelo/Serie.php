@@ -1,4 +1,5 @@
 <?php
+namespace ScreenMatch\Modelo;
 
 class Serie extends Titulo {
 
@@ -14,7 +15,7 @@ class Serie extends Titulo {
 
     }
       
-    #[Override]
+    #[\Override]
     public function duracaoEmMinutos(): int {
 
         return $this->temporadas * $this->episodiosPorTemporada * $this->minutosPorEpisodio;
